@@ -5,7 +5,7 @@
 
 신규 쇼핑몰 서비스를 운영하기 위해 Naver Cloud를 사용하여 Web, WAS, DB가 분리된 3-Tier 인프라를 구축 및 Flask 기반의 간단한 쇼핑몰 웹 구현
 
-<p align="center"> <img src="E-shop_3-Tier.png" alt="신규 쇼핑몰 프로젝트" width="500"> </p>
+<p align="center"> <img src="E-shop_3-Tier.png" alt="신규 쇼핑몰 프로젝트" width="300"> </p>
 
 #### ✨ 주요 기능
 
