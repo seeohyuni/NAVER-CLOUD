@@ -1,4 +1,3 @@
-<div align="center">
 
 # Naver Cloud 프로젝트
 
