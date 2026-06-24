@@ -5,7 +5,7 @@
 
 프로젝트 진행 과정과 구현 내용은 아래 블로그 게시물에 정리했습니다.
 - [NAVER-CLOUD 프로젝트 정리](https://mystory21594.tistory.com/)
-- 
+
 ### 1. 신규 쇼핑몰 인프라 구축 프로젝트
 
 신규 쇼핑몰 서비스를 운영하기 위해 Naver Cloud를 사용하여 Web, WAS, DB가 분리된 3-Tier 인프라를 구축 및 Flask 기반의 간단한 쇼핑몰 웹 구현
