@@ -5,7 +5,6 @@
 
 신규 쇼핑몰 서비스를 운영하기 위해 Naver Cloud를 사용하여 Web, WAS, DB가 분리된 3-Tier 인프라를 구축하고, Flask 기반의 간단한 쇼핑몰 웹 애플리케이션을 구현한 프로젝트
 
-<br>
 
 ### 주요 기능
 
@@ -26,7 +25,6 @@
 - **Web·DB:** Apache, MySQL
 - **Infrastructure:** Rocky Linux, systemd, SSH
 
-<br>
 
 ---
 
@@ -34,7 +32,6 @@
 
 사용자가 업로드한 이미지를 원하는 규격으로 변환하고, 사용자별 이미지 변환 이력까지 관리할 수 있도록 구현한 Naver Cloud 기반 웹 서비스
 
-<br>
 
 ### 주요 기능
 
@@ -56,9 +53,6 @@
 - **Database:** MySQL
 - **AI:** HyperCLOVA X
 
-<br>
-
----
 
 <div align="center">
 
