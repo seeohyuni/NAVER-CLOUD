@@ -66,7 +66,7 @@
 - **Database:** MySQL
 - **AI:** HyperCLOVA X
 
-#### 최종 웹사이트 
+#### ✅ 최종 웹사이트 
 
 <p align="center"> <img src="Image-Conversion-final1.png" alt="최종 웹사이트1" width="700"> </p>
 
