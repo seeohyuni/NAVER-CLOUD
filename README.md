@@ -5,7 +5,7 @@
 
 신규 쇼핑몰 서비스를 운영하기 위해 Naver Cloud를 사용하여 Web, WAS, DB가 분리된 3-Tier 인프라를 구축 및 Flask 기반의 간단한 쇼핑몰 웹 구현
 
-#### 🔗 3-Tier 기반 아키텍처
+### System Architecture
 
 <p align="center"> <img src="E-shop_3-Tier.png" alt="신규 쇼핑몰 프로젝트" width="400"> </p>
 
@@ -35,9 +35,9 @@
 
 사용자가 업로드한 이미지를 인스타 스토리 규격으로 변환하고, 사용자별 이미지 변환 이력까지 관리할 수 있도록 구현
 
-#### 🔗 이미지 변환 웹 아키텍처 
+### System Architecture
 
-<p align="center"> <img src="Image-Conversion.png" alt="이미지 변환 프로젝트" width="500"> </p>
+<p align="center"> <img src="Image-Conversion.png" alt="이미지 변환 프로젝트" width="700"> </p>
 
 #### ✨ 주요 기능
 
