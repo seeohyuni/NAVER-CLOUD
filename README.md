@@ -35,6 +35,18 @@
 - **Web·DB:** Apache, MySQL
 - **Infrastructure:** Rocky Linux, systemd, SSH
 
+#### 🟥 진행 중 문제 사항 및 해결 과정
+- Web-WAS 연동 문제
+  - Apache에서 받은 요청이 Flask까지 정상적으로 전달되지 않음
+  - ALB와 NLB의 Target Group 및 Health Check를 설정하고, Apache에 ProxyPass와 ProxyPassReverse를 적용한 다음 연결 상태 확인
+
+- CSS 502 오류
+  - 정적 파일 요청까지 Flask WAS로 전달되면서 CSS가 정상적으로 적용되지 않음
+  - static 요청은 Apache가 직접 처리하도록 ProxyPass 제외 설정과 Alias를 추가
+
+- 서비스 및 스토리지 유지 문제
+  - 서버 재부팅 후 Flask 애플리케이션이 종료되고 추가 스토리지의 마운트 해제
+  - Flask를 systemd 서비스로 등록하고, 추가 스토리지를 등록해 자동 실행과 자동 마운트를 설정
 
 ---
 
@@ -65,6 +77,15 @@
 - **Frontend:** HTML, CSS, JavaScript
 - **Database:** MySQL
 - **AI:** HyperCLOVA X
+
+#### 🟥 진행 중 문제 사항 및 해결 과정
+- Cloud Insight 메트릭 경고
+  - 이벤트 규칙 설정 중 일부 서버에 선택한 메트릭이 존재하지 않는다는 안내 표시
+  - 서버 설정에서 상세 모니터링을 활성화하여 필요한 CPU, 메모리, 디스크 메트릭을 수집하도록 해결
+
+- Object Storage와 DB 상태 불일치
+  - Lifecycle 설정으로 이미지가 삭제되어도 DB에는 이미지 이력이 남아 있는 문제 확인 
+  - metadata 테이블에 상태 컬럼을 추가하고, Object Storage에서 파일 존재 여부를 확인하여 삭제된 파일은 deleted 상태로 변경하고, 이력 화면에서도 삭제된 이미지로 표시하도록 수정
 
 #### ✅ 최종 웹사이트 
 
