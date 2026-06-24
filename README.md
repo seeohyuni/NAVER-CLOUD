@@ -63,4 +63,4 @@
 
 <p align="center"> <img src="Image-Conversion-final1.png" alt="최종 웹사이트1" width="700"> </p>
 
-<p align="center"> <img src="Image-Conversion-final2.png" alt="최종 웹사이트2" width="700"> </p>
+<p align="center"> <img src="Image-Conversion-final2.png" alt="최종 웹사이트2" width="600"> </p>
