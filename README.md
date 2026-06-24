@@ -1,7 +1,7 @@
 
 # Naver Cloud 프로젝트
 
-## 프로젝트 기록
+### 📌 프로젝트 기록
 
 프로젝트 진행 과정과 구현 내용은 아래 블로그 게시물에 정리했습니다.
 - [NAVER-CLOUD 프로젝트 정리](https://mystory21594.tistory.com/)
